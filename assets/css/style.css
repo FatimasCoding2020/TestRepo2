@@ -11,7 +11,7 @@
 }
 
 body{
-   background-color: #f3f5f9;
+   background-color: #71c9ce;
 }
 
 .wrapper{
@@ -36,11 +36,12 @@ body{
 }
 
 .wrapper .sidebar ul li{
+  text-align: center;
   padding: 15px;
   border-bottom: 1px solid #a6e3e9;
-  border-bottom: 1px solid rgba(0,0,0,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
-}    
+  border-bottom: 1px solid  #e3fdfd;
+  border-top: 1px solid #e3fdfd;
+}
 
 .wrapper .sidebar ul li a{
   color: #71c9ce;
@@ -59,42 +60,40 @@ body{
   color: #fff;
 }
  
-.wrapper .sidebar .social_media{
-  position: absolute;
+ .wrapper .sidebar .social_media{
+ position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 10%;
+  transform: translateX();
   display: flex;
 }
 
-.wrapper .sidebar .social_media a{
-  display: block;
-  width: 40px;
-  background: #cbf1f5;
-  height: 40px;
-  line-height: 45px;
-  text-align: center;
-  margin: 0 5px;
-  color: #71c9ce;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+
+.wrapper .sidebar .social_media  a{
+ width: 40px;
+ height: 40px;
+ line-height: 20px;
+ text-align: center;
+ margin: 0 5px;
+ color: #71c9ce;
+ border-top-left-radius: 5px;
+  border-top-right-radius: 5px; 
 }
 
 .wrapper .main_content{
   width: 100%;
   margin-left: 200px;
-}
 
 .wrapper .main_content .header{
   padding: 20px;
-  background: #fff;
-  color: #717171;
-  border-bottom: 1px solid #e0e4e8;
+  background: #cbf1f5;
+  color: #cbf1f5;
+  border-bottom: 1px solid #cbf1f5;
 }
 
 .wrapper .main_content .info{
   margin: 20px;
-  color: #717171;
+  color: #cbf1f5;
   line-height: 25px;
 }
 
