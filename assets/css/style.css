@@ -11,13 +11,17 @@
 }
 
 body{
-   background-color: #71c9ce;
+   background-color: #fafafa;
 }
 
-.wrapper{
+a:hover {
+    text-decoration: none;
+}
+
+/*.wrapper{
   display: flex;
   position: relative;
-}
+}*/
 
 .wrapper .sidebar{
   width: 200px;
@@ -45,7 +49,7 @@ body{
 
 .wrapper .sidebar ul li a{
   color: #71c9ce;
-  display: block;
+ 
 }
 
 .wrapper .sidebar ul li a .fas{
@@ -80,9 +84,11 @@ body{
   border-top-right-radius: 5px; 
 }
 
-.wrapper .main_content{
+/*.wrapper .main_content{
   width: 100%;
   margin-left: 200px;
+    
+}
 
 .wrapper .main_content .header{
   padding: 20px;
@@ -99,4 +105,226 @@ body{
 
 .wrapper .main_content .info div{
   margin-bottom: 20px;
+}*/
+
+
+
+/* CALLOUT */
+
+.callout-container {
+      /*  */
+      width: calc(100% - 200px);
+
+  height: 100vh;
+  background: url('../images/home-bg.jpg') no-repeat center center fixed;
+  
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+
+} 
+ .container-fluid{
+    margin-left: 200px;
+} 
+
+
+#jumbotron-container {
+  height: 50%;
+  padding-top: 160px;
 }
+
+.jumbotron {
+  background-color: transparent;
+  margin-top: 2rem;
+
+}
+
+.jumbotron-header {
+  color: #71c9ce;
+  font-size: 5rem;
+  margin-bottom: 30px;
+  font-family:'Sacramento', cursive, sans-serif;
+}
+/*.jumbotron-header {
+  color: #71c9ce;
+  font-size: 5rem;
+  margin-bottom: 30px;
+  font-family:'Sacramento', cursive, sans-serif;
+}*/
+
+.jumbotron p {
+  font-size: 1.8rem;
+  color: #71c9ce;
+  margin-top: 2rem;
+}
+
+.hi {
+  font-size: 2rem;
+  font-family: "Josefin Slab", sans-serif;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* --------------------------------------------- BUTTONS */
+
+/* Buttons */
+
+
+
+.btn--contact {
+
+    font-weight: bold;
+
+    border-radius: 23px;
+
+    width: 160px;
+
+}
+
+
+
+.btn--turquoise {
+
+    color:#e3fdfd;
+
+    background-color:#71c9ce;
+
+    border-color:#71c9ce;
+
+}
+
+
+
+.btn--turquoise:hover,
+
+.btn--turquoise:active,
+
+.btn--turquoise:focus,
+
+.btn--turquoise:active:focus {
+
+    background-color:#a6e3e9;
+
+    border-color: #a6e3e9;
+
+    color:#e3fdfd;
+
+}
+
+
+
+/*.btn--contact {
+  font-weight: bold;
+  border-radius: 12px;
+  width: 180px;
+  text-transform: uppercase;
+  line-height: 2.5;
+  margin-top: 10px;
+}
+
+.btn--turquoise {
+  color: #cbf1f5;
+  background-color: #a6e3e9;
+  border: 2px solid #71c9ce;
+}
+
+.btn--turquoise:hover,
+.btn--turquoise:active,
+.btn--turquoise:focus,
+.btn--turquoise:active:focus {
+  background-color: #a6e3e9;
+  border: 2px solid #71c9ce;
+}*/
+
+/*.btn--white {
+  color: #383838;
+  background-color: #fafafa;
+  border: 2px solid #a13232;
+  margin-top: 20px;
+}
+
+.btn--white:hover,
+.btn--white:active,
+.btn--white:focus,
+.btn--white:active:focus {
+  background-color: #701515;
+  border: 2px solid #701515;
+}
+
+.history-button {
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 140px;
+  line-height: 2;
+  color: #fafafa;
+  background-color: #a13232;
+}
+
+.history-button:hover,
+.history-button:active,
+.history-button:focus,
+.history-button:active:focus {
+  background-color: #701515;
+}
+*/
+
+/* --------------------------------------------- CONTACT PAGE */
+
+.page-heading-contact {
+ 
+  /*  */
+      width: calc(100% - 200px);
+
+  height: 100vh;
+  background: url('../images/homepage-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+
+}
+.contact-container {
+  background-color: #71c9ce;
+  color:#cbf1f5;
+}
+
+.contact-form {
+  padding-top: 20px;
+}
+
+/*.reservation-link {
+  color: #fafafa;
+  margin-top: 40px;
+  font-size: 1.4rem;
+}
+
+.reservation-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fafafa;
+}*/
+
