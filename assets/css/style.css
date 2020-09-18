@@ -116,7 +116,7 @@ a:hover {
       width: calc(100% - 200px);
 
   height: 100vh;
-  background: url('../images/home-bg.jpg') no-repeat center center fixed;
+  background: url('../images/bg.jpg') no-repeat center center fixed;
   
   background-size: cover;
   display: -webkit-box;
@@ -252,22 +252,22 @@ a:hover {
   border: 2px solid #71c9ce;
 }*/
 
-/*.btn--white {
+.btn btn-secondary {
   color: #383838;
   background-color: #fafafa;
   border: 2px solid #a13232;
   margin-top: 20px;
 }
 
-.btn--white:hover,
-.btn--white:active,
-.btn--white:focus,
-.btn--white:active:focus {
+.btn btn-secondary:hover,
+.btn btn-secondary:active,
+.btn btn-secondary:focus,
+.btn-btn-secondary:active:focus {
   background-color: #701515;
   border: 2px solid #701515;
 }
 
-.history-button {
+/*.history-button {
   font-size: 1.1rem;
   font-weight: bold;
   border-radius: 10px;
@@ -308,11 +308,64 @@ a:hover {
 
 }
 
-.contact-form {
+/*.contact-form {
   
   background-color: #cbf1f5;
   color:#71c9ce;
   
+}*/
+
+/* ----------------------------------------Contact Form */
+
+/*.contact-heading {
+    font-family: "Josefin Slab", sans-serif;;
+    font-weight: 300;
+    margin-top: 250px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-left: 350px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#e3fdfd;
+
+    
+    font-weight: bold;
+
+    border-radius: 23px;
+
+    width: 200px;
+
+}
+.btn btn-secondary {
+ 
+  color:#e3fdfd;
+
+    background-color:#71c9ce;
+
+    border-color:#71c9ce;
+
+
+  margin-top: 20px;
+}
+
+.btn btn-secondary:hover,
+.btn btn-secondary:active,
+.btn btn-secondary:focus,
+.btn-btn-secondary:active:focus {
+  background-color:#a6e3e9;
+
+    border-color: #a6e3e9;
+
+    color:#e3fdfd;
 }
 
 /*.reservation-link {
@@ -326,7 +379,29 @@ a:hover {
   font-weight: bold;
   color: #fafafa;
 }*/
+#contact {
+    background-attachment: fixed;
+    background-image: url('../images/bg.jpg');
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 42px;
+    text-align: left;
+    margin-bottom: 30px;
+}
 
+.contact-form {
+    position: relative;
+    top: 6%;
+}
+
+#contact-head {
+    margin: 30px -11px 25px 0px;
+}
+
+.contact {
+    margin: 15px 0px 15px 0px;
+}
 /* ----------------------------------------Skills */
 
 .progress {
